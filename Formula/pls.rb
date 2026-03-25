@@ -1,26 +1,26 @@
 class Pls < Formula
   desc "AI-powered CLI assistant"
   homepage "https://github.com/colus001/pls"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/colus001/pls/releases/download/v0.2.1/pls-macos-aarch64"
-      sha256 "62c02337c57a0e0c4b27c07251f12c7e56cbd0e9a137a5f55ae063b09f40e116"
+      url "https://github.com/colus001/pls/releases/download/v0.2.2/pls-macos-aarch64"
+      sha256 "f53050218dcd1cb26b3d4207b52506c77846838dafee9f801d1586f4cb95e88f"
     else
-      url "https://github.com/colus001/pls/releases/download/v0.2.1/pls-macos-x86_64"
-      sha256 "29f222e1c4f41030c8d34ee747939464202b72da282386bdbc9ae1faa969cdcd"
+      url "https://github.com/colus001/pls/releases/download/v0.2.2/pls-macos-x86_64"
+      sha256 "4019004f176bc6f3dc55acc840b85e01d7a17efc7560c631f2c5c412808ee6e3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/colus001/pls/releases/download/v0.2.1/pls-linux-aarch64"
-      sha256 "fd07efc029b05edf88ca8ab6e0f8340f437c12a517d84434b6961501f82e178a"
+      url "https://github.com/colus001/pls/releases/download/v0.2.2/pls-linux-aarch64"
+      sha256 "dec0b2ea3b25ab720a07656fc0e487680afa52d36b06a66f47816f077d15a011"
     else
-      url "https://github.com/colus001/pls/releases/download/v0.2.1/pls-linux-x86_64"
-      sha256 "e3623ce12089280bae98bacdd54212afc01ed9a2a577e10f96ca216d71086b3a"
+      url "https://github.com/colus001/pls/releases/download/v0.2.2/pls-linux-x86_64"
+      sha256 "0cfbbd1af6c559eee99e34751e3ed029f48e3797fd4eef9283df342e31dc8584"
     end
   end
 
